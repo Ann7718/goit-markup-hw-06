@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="heder-page">
+    <header class="header-page">
         <!-- PAGE HEADER -->
         <div class="container nav-list-header">
             <nav class="nav-list">
                 <a class="logo link" href="./index.html">Web<span class="logo-color">Studio</span></a>
-                <ul class="nav-list naw-list-after-logo">
+                <ul class="nav-list-list naw-list-after-logo">
                     <li class="list header-nav">
                         <a href="./index.html" class="link menu-link header-nav-a">Studio</a>
                     </li>
@@ -29,6 +29,11 @@
                     </li>
                 </ul>
             </nav>
+            <button class="mobile-open" type="button">
+                <svg class="mobile-open-icon" width="28" height="28">
+                  <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+                </svg>
+              </button>
             <address class="page-address">
                 <ul class="nav-list-con">
                     <li class="list list-address">
@@ -43,14 +48,14 @@
     </header>
     <main>
         <!-- HERO SECTION -->
-        <section class="hero-page">
+        <!-- <section class="hero-page">
             <div class="container">
                 <h1 class="hero-text">Effective Solutions for Your Business</h1>
                 <button type="button" class="button">Order Service</button>
             </div>
-        </section>
+        </section> -->
         <!-- ADVANTAGES -->
-        <section class="advantages-page">
+        <!-- <section class="advantages-page">
         <div class="container">   
             <h2 class="advantages-text visually-hidden">Advantages</h2>
             <ul class="advantages-text-li">
@@ -100,9 +105,9 @@
                 </li>
             </ul>
         </div>   
-        </section>
+        </section> -->
         <!-- OUR TEAM -->
-        <section class="team-page-our">
+        <!-- <section class="team-page-our">
         <div class="container">
             <h2 class="team-text">Our Team</h2>
             <ul class="about-team">
@@ -256,9 +261,9 @@
                 </li>
             </ul>
         </div>
-        </section>
+        </section> -->
         <!-- OUR PORTFOLIO -->
-        <section class="our-portfolio-page">
+        <!-- <section class="our-portfolio-page">
         <div class="container">
             <h2 class="team-text">Our Portfolio</h2>
             <ul class="list-portfolio">
@@ -491,7 +496,7 @@
                     <label class="checkbox-label" for="user-privacy">
                         <span class="checkbox-label-span">
                             <svg class="icon-checkbox" width="10" height="8">
-                                <use href="./images/icons.svg#icon-Checkbox"></use>
+                                <use href="./images/icons.svg#icon-Vector"></use>
                             </svg>
                         </span>
                         I accept the terms and conditions of the
@@ -505,8 +510,22 @@
                 
             </form>
         </div>
-    </div>
-
-    
+    </div> -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-container">
+          <button class="mobile-menu-close" type="button">
+            <svg class="modal-form-close" type="button" aria-label="modal close button" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="link list">
+              <li><a href="">Studio</a></li>
+              <li><a href="">Portfolio</a></li>
+              <li><a href="">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
 </body>
 </html>
