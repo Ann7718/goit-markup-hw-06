@@ -696,7 +696,7 @@ body {
 } 
 
 .name-and-about-app {
-    padding: 32px 16px;
+    padding: 0 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
@@ -734,6 +734,8 @@ body {
     border: 1px solid var(--CLOUD, #F4F4FD);
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    position: relative;
+    overflow: hidden;
 }
 
 
@@ -741,10 +743,10 @@ body {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.our-portfolio-picture {
+/* .our-portfolio-picture {
     position: relative;
     overflow: hidden;
-}
+} */
 
 .list-portfolio-img:hover .div-app-p{
     transform: translateY(0%);
@@ -1180,7 +1182,6 @@ body {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
-        height: 1516px;
     }
     
     .list-portfolio-img {
