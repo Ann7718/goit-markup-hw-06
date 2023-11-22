@@ -511,57 +511,39 @@ ul {
     }
 }
 
-@media (min-width: 321px) and (min-resolution: 72dpi) {
+@media (min-width: 320px) and (min-resolution: 96dpi) {
     .hero-page {
         --hero-background-image: url(../images/dark-bg-mb.jpg)
     }
 }
 
-@media (min-width: 321px) and (min-resolution: 150dpi) {
+@media (min-width: 320px) and (min-resolution: 192dpi) {
+    .hero-page {
+        --hero-background-image: url(../images/dark-bg-mb@2x.jpg)
+    }
+}
+
+@media (min-width: 768px) and (min-resolution: 96dpi) {
+    .hero-page {
+        --hero-background-image: url(../images/dark-bg-tb@2x.jpg)
+    }
+}
+
+@media (min-width: 768px) and (min-resolution: 192dpi) {
     .hero-page {
         --hero-background-image: url(../images/dark-bg-tb.jpg)
     }
 }
 
-@media (min-width: 321px) and (min-resolution: 300dpi) {
+@media (min-width: 1158px) and (min-resolution: 96dpi) {
     .hero-page {
         --hero-background-image: url(../images/people-office-ds.jpg)
     }
 }
 
-@media (min-width: 769px) and (min-resolution: 72dpi) {
+@media (min-width: 1158px) and (min-resolution: 192dpi) { 
     .hero-page {
-        --hero-background-image: url(../images/images/dark-bg-mb.jpg)
-    }
-}
-
-@media (min-width: 769px) and (min-resolution: 150dpi) {
-    .hero-page {
-        --hero-background-image: url(../images/dark-bg-tb.jpg)
-    }
-}
-
-@media (min-width: 769px) and (min-resolution: 300dpi) {
-    .hero-page {
-        --hero-background-image: url(../images/people-office-ds.jpg)
-    }
-}
-
-@media (max-width: 320px) and (min-resolution: 72dpi) {
-    .hero-page {
-        --hero-background-image: url(../images/dark-bg-mb.jpg)
-    }
-}
-
-@media (max-width: 320px) and (min-resolution: 150dpi) { 
-    .hero-page {
-        --hero-background-image: url(../images/dark-bg-tb.jpg)
-    }
-}
-
-@media (max-width: 320px) and (min-resolution: 300dpi) {
-    .hero-page {
-        --hero-background-image: url(../images/people-office-ds.jpg)
+        --hero-background-image: url(../images/people-office-ds@2x.jpg)
     }
 }
 
