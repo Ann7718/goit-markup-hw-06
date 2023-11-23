@@ -210,7 +210,7 @@ ul {
 }
 
 .page-address {
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
 }
 
 .nav-list-con {
@@ -646,6 +646,17 @@ ul {
         border-radius: 4px;
         border: 1px solid var(--LIGHT-SLATE, #8E8F99);
         background: var(--CLOUD, #F4F4FD);
+    }
+
+    .advantages-caption {
+        font-weight: 400;
+    }
+
+    .advantages-title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        text-align: start;
     }
 }
 
@@ -1089,7 +1100,7 @@ ul {
     }
 
     .header-page {
-        padding: 0;
+        padding: 8px 0;
         border-bottom: 1px solid #e7e9fc;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
@@ -1168,7 +1179,7 @@ ul {
         line-height: 1.6;
         letter-spacing: 0.04em;
         color: #434455;
-        margin-bottom: 16px;
+        /* margin-bottom: 16px; */
     }
 
     .nav-list-con {
@@ -1573,6 +1584,10 @@ ul {
         padding: 24px 0;
     }
     
+    .header-page {
+        padding: 0;
+    }
+
     .header-nav-a {
         position: relative;
         color: #404bbf;
